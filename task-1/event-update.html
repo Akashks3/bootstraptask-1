@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 10%;
+            text-align: center;
+        }
+
+        label {
+            text-align: left;
+        }
+
+        .form-control {
+            width: 50vw;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+
+        .form-select{
+            width: 60vw;
+            margin-left: 30px;
+    margin-bottom: 30px;
+        }
+    </style>
+
+</head>
+
+        <body class="p-3">
+    <div class="continer">
+
+    <h1 class="justify-content-center">Event 1</h1>
+    <h6>Number of available seats :23</h6>
+    <br>
+    <br>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <img src="img/images.jpeg" width="200vw" height="200vh" alt="">
+        </div>
+        <div class="col-md-3">
+            <form action="">
+                <form class="row g-3">
+                    <div class="col-md-4 d-flex gap-3">
+                        <label for="validationServer01" class="form-label">Name:</label>
+                        <input type="text" class="form-control " id="validationServer01" value="" required>
+                    </div>
+                    <div class="col-md-4 d-flex gap-3">
+                
+                        <label for="validationServer01" class="form-label">Email: </label>
+                        <input type="email" class="form-control " id="validationServer01" value="" required>
+                    </div>
+                    
+                    <div class="col-md-4 d-flex gap-3">
+                            <label for="validationServer01" class="form-label">Phone No: </label>
+                            <input type="phone" class="form-control " id="validationServer01" value="" required>
+                        </div>
+                        <div class="col-md-4 d-flex gap-3">
+                            <label for="seat" class="form-label">Number of seats:</label>
+                            <select class="form-select" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 d-flex gap-3">
+                            <label for="validationServer01" class="form-label">Name of attendee 2: </label>
+                            <input type="text" class="form-control " id="validationServer01" value="" required>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12">
+                      <br>
+                        <button class="btn btn-outline-secondary " type="submit">Submit</button>
+                        <button class="btn btn-outline-secondary" type="submit">cancel</button>
+
+                    </div>
+                </form>
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</body>
+
+</html>
